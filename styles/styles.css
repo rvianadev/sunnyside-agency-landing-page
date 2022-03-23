@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+/* Fonts */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 18px;
+
+  /* COLORS */
+
+  /* Primary */
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --dark-desatured-cyan: hsl(167, 40%, 24%); /* graphic design text */
+  --dark-blue: hsl(198, 62%, 26%); /* photography text */
+  --dark-moderate-cyan: hsl(168, 34%, 41%); /* footer */
+
+  /* Neutral */
+  --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  display: grid;
+
+  justify-content: center;
+}
+
+main {
+  width: 1440px;
+  height: 4174px;
+
+  background-color: cornflowerblue;
+}
+
+header {
+  background-color: blueviolet;
+
+  height: 200px;
+  width: 100%;
+  padding-top: 20px;
+
+  background: url('../images/logo.svg') no-repeat;
+
+  
+}
