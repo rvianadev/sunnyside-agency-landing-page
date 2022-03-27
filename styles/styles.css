@@ -11,41 +11,69 @@ body {
 }
 
 .container {
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr); */
-
   background-color: cornflowerblue;
 
   width: 1440px;
-  height: 4174px;
+  height: 4175px;
 }
 
-.main-container {
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-
-  width: 1440px;
-  height: 3625px; */
-}
-
-.top-content {
+.cover {
   width: 1440px;
   height: 600px;
 
-  background-color: darkmagenta;
+  background-color: #3dbeff;
 }
 
-.middle-content {
+.cover-image-container {
+  width: 1440px;
+  height: 600px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.cover-image {
+  max-width: 1440px;
+  max-height: 600px;
+
+  width: auto;
+  height: auto;
+}
+
+.cards {
   width: 1440px;
   height: 1800px;
 
-  background-color: brown;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  background-color: #fed501;
 }
 
-.bottom-content {
+.testimonials {
   width: 1440px;
   height: 780px;
 
   background-color: bisque;
+}
+
+.bottom-images {
+  max-width: 1440px;
+  height: 445px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  background-color: #fea9ac;
+}
+
+.bottom-images__image {
+  width: 360px;
+  height: 445px;
+}
+
+.bottom-images__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
