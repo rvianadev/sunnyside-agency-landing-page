@@ -5,6 +5,8 @@ header {
   height: 200px;
   width: 100%;
   padding-top: 20px;
+
+  background-color: #3dbeff;
 }
 
 .logo {
