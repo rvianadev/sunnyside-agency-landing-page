@@ -24,6 +24,22 @@ body {
   background-color: #3dbeff;
 }
 
+.cover-image-container {
+  width: 1440px;
+  height: 600px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.cover-image {
+  max-width: 1440px;
+  max-height: 600px;
+
+  width: auto;
+  height: auto;
+}
+
 .cards {
   width: 1440px;
   height: 1800px;
@@ -43,11 +59,21 @@ body {
 }
 
 .bottom-images {
-  width: 1440px;
+  max-width: 1440px;
   height: 445px;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 
   background-color: #fea9ac;
+}
+
+.bottom-images__image {
+  width: 360px;
+  height: 445px;
+}
+
+.bottom-images__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
