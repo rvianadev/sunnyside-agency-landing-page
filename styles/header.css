@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+
+  height: 200px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 124px;
+  height: 24px;
+  background: url('../images/logo.svg');
+
+  margin-left: 50px;
+}
+
+.menu {
+  width: 600px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 0 25px;
+}
