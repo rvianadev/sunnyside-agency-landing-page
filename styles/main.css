@@ -51,7 +51,7 @@
   color: var(--dark-desatured-cyan);
   max-width: 12ch;
   position: absolute;
-  bottom: 188px;
+  bottom: 208px;
 }
 
 .main-item-graphic-design p {
@@ -61,7 +61,7 @@
   line-height: 1.5;
   padding: 0 20px;
   position: absolute;
-  bottom: 50px;
+  bottom: 60px;
 }
 
 .main-item-photography {
@@ -83,7 +83,7 @@
   color: var(--dark-blue);
   max-width: 12ch;
   position: absolute;
-  bottom: 161px;
+  bottom: 181px;
 }
 
 .main-item-photography p {
@@ -92,5 +92,5 @@
   line-height: 1.5;
   padding: 0 20px;
   position: absolute;
-  bottom: 50px;
+  bottom: 60px;
 }
