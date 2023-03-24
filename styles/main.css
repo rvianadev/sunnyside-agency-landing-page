@@ -30,3 +30,67 @@
   font-size: 16px;
   padding: 10px;
 }
+
+.main-item-graphic-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url("../images/mobile/image-graphic-design.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vw * 1.6);
+  position: relative;
+}
+
+.main-item-graphic-design h2 {
+  display: inline-block;
+  font-family: var(--fraunces);
+  font-weight: 900;
+  color: var(--dark-desatured-cyan);
+  max-width: 12ch;
+  position: absolute;
+  bottom: 188px;
+}
+
+.main-item-graphic-design p {
+  display: inline-block;
+  font-family: var(--barlow);
+  color: var(--dark-desatured-cyan);
+  line-height: 1.5;
+  padding: 0 20px;
+  position: absolute;
+  bottom: 50px;
+}
+
+.main-item-photography {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url("../images/mobile/image-photography.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vw * 1.6);
+  position: relative;
+}
+
+.main-item-photography h2 {
+  font-family: var(--fraunces);
+  font-weight: 900;
+  color: var(--dark-blue);
+  max-width: 12ch;
+  position: absolute;
+  bottom: 161px;
+}
+
+.main-item-photography p {
+  font-family: var(--barlow);
+  color: var(--dark-blue);
+  line-height: 1.5;
+  padding: 0 20px;
+  position: absolute;
+  bottom: 50px;
+}
