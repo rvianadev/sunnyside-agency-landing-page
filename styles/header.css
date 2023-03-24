@@ -2,7 +2,7 @@
   background-image: url("../images/mobile/image-header.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  /* width: 100%; */
+  width: 100%;
   height: calc(100vw * 1.434666);
   position: relative;
 }
