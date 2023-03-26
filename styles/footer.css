@@ -20,12 +20,20 @@
   color: var(--dark-moderate-cyan);
 }
 
+.footer-menu a:hover {
+  color: var(--white);
+}
+
+.social-media-container {
+  padding: 90px 0 80px 0;
+}
+
 .social-media-menu {
   display: flex;
   justify-content: space-between;
   padding: 0 105px;
 }
 
-.social-media-container {
-  padding: 90px 0 80px 0;
+.social-media-menu a:hover {
+  color: var(--white);
 }
