@@ -4,6 +4,11 @@
   background-color: #90d4c5;
 }
 
+.logo-footer {
+  justify-self: center;
+  padding: 65px 0 45px 0;
+}
+
 .footer-menu {
   display: flex;
   justify-content: space-around;
@@ -19,4 +24,8 @@
   display: flex;
   justify-content: space-between;
   padding: 0 105px;
+}
+
+.social-media-container {
+  padding: 90px 0 80px 0;
 }
