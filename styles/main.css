@@ -31,6 +31,24 @@
   padding: 10px;
 }
 
+#transform-link::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 6px;
+  background-color: #fef4b7;
+  border-radius: 6px;
+}
+
+#stand-out-link::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 6px;
+  background-color: #fed9d0;
+  border-radius: 6px;
+}
+
 .main-item-graphic-design {
   display: flex;
   flex-direction: column;
