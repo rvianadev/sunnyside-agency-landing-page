@@ -33,7 +33,3 @@
   justify-content: space-between;
   padding: 0 105px;
 }
-
-.social-media-menu a:hover {
-  color: var(--white);
-}
