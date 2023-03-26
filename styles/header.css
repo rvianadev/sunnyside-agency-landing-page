@@ -10,8 +10,40 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 30px 20px;
+  padding: 30px 25px;
   position: relative;
+}
+
+.menu-mobile-container {
+  width: 330px;
+  height: 330px;
+  background-color: #fffbf8;
+  position: absolute;
+  right: 25px;
+  top: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-mobile {
+  text-align: center;
+}
+
+.menu-mobile li a {
+  text-decoration: none;
+  color: var(--dark-grayish-blue);
+  font-family: var(--barlow);
+  display: inline-block;
+  padding: 20px 30px;
+}
+
+.menu-item:hover {
+  background-color: #fbd601;
+  color: var(--very-dark-desaturated-blue);
+  border-radius: 40px;
+  font-family: var(--fraunces);
+  text-transform: uppercase;
 }
 
 .header-title {
