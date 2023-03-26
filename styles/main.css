@@ -5,6 +5,7 @@
   text-align: center;
   gap: 30px;
   padding: 60px 0;
+  position: relative;
 }
 
 .main-item h2 {
@@ -35,18 +36,26 @@
   content: "";
   display: block;
   width: 120px;
-  height: 6px;
+  height: 8px;
   background-color: #fef4b7;
   border-radius: 6px;
+  position: absolute;
+  bottom: 68px;
+  left: 127px;
+  z-index: -1;
 }
 
 #stand-out-link::after {
   content: "";
   display: block;
   width: 120px;
-  height: 6px;
+  height: 8px;
   background-color: #fed9d0;
   border-radius: 6px;
+  position: absolute;
+  bottom: 68px;
+  left: 127px;
+  z-index: -1;
 }
 
 .main-item-graphic-design {
