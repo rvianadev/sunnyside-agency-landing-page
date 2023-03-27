@@ -6,3 +6,8 @@
 @import "./testimonials.css";
 @import "./images-gallery.css";
 @import "./footer.css";
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}

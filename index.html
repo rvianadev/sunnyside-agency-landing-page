@@ -18,6 +18,17 @@
       <nav id="hamburger-menu">
         <img src="./images/icon-hamburger.svg" alt="">
       </nav>
+
+      <nav class="desktop-nav">
+        <ul class="desktop-menu">
+          <li><a class="desktop-menu-item" href="/">About</a></li>
+          <li><a class="desktop-menu-item" href="/">Services</a></li>
+          <li><a class="desktop-menu-item" href="/">Projects</a></li>
+          <li><a class="desktop-menu-item" href="/">Contact</a></li>
+        </ul>
+      </nav>
+
+
     </header>
     <h1 class="header-title">we are creatives</h1>
     <img class="icon-arrow-down" src="./images/icon-arrow-down.svg" alt="">
@@ -39,19 +50,19 @@
   </div>
 
   <div class="main-container">
-    <div class="main-image">
+    <div class="main-image transform-image">
       <img src="./images/mobile/image-transform.jpg" alt="">
     </div>
-    <div class="main-item">
+    <div class="main-item transform">
       <h2>Transform your brand</h2>
       <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through
         compelling visuals that do most of the marketing for you.</p>
       <a id="transform-link" href="/">learn more</a>
     </div>
-    <div class="main-image">
+    <div class="main-image stand-out-image">
       <img src="./images/mobile/image-stand-out.jpg" alt="">
     </div>
-    <div class="main-item">
+    <div class="main-item stand-out">
       <h2>Stand out to the right audience</h2>
       <p>Using a collaborative formula of designers, researches, photographers, videographers, and copywriters, we'll
         build and extend your brand in digital places.</p>
@@ -97,11 +108,30 @@
     </div>
   </div>
 
-  <div class="images-gallery-container">
+  <!-- <div class="images-gallery-container">
     <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="">
     <img src="./images/mobile/image-gallery-orange.jpg" alt="">
     <img src="./images/mobile/image-gallery-cone.jpg" alt="">
     <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="">
+  </div> -->
+
+  <div class="images-gallery-container">
+    <picture>
+      <source media="(min-width:768px)" srcset="./images/desktop/image-gallery-milkbottles.jpg">
+      <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="">
+    </picture>
+    <picture>
+      <source media="(min-width:768px)" srcset="./images/desktop/image-gallery-orange.jpg">
+      <img src="./images/mobile/image-gallery-orange.jpg" alt="">
+    </picture>
+    <picture>
+      <source media="(min-width:768px)" srcset="./images/desktop/image-gallery-cone.jpg">
+      <img src="./images/mobile/image-gallery-cone.jpg" alt="">
+    </picture>
+    <picture>
+      <source media="(min-width:768px)" srcset="./images/desktop/image-gallery-sugarcubes.jpg">
+      <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="">
+    </picture>
   </div>
 
   <footer class="footer">
