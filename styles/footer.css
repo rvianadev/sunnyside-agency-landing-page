@@ -33,3 +33,22 @@
   justify-content: space-between;
   padding: 0 105px;
 }
+
+@media screen and (min-width: 768px) {
+  .footer-nav {
+    justify-self: center;
+  }
+
+  .footer-menu {
+    gap: 50px;
+  }
+
+  .social-media-container {
+    max-width: 60vw;
+    justify-self: center;
+  }
+
+  .social-media-menu {
+    gap: 30px;
+  }
+}
