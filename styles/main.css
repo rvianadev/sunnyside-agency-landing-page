@@ -164,3 +164,53 @@
     left: calc(25vw - 60px);
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .main-item-graphic-design {
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+    height: 600px;
+  }
+
+  .main-item-graphic-design p {
+    padding: 0 145px;
+  }
+
+  .main-item-photography {
+    background-image: url("../images/desktop/image-photography.jpg");
+    height: 600px;
+  }
+
+  .main-item-photography p {
+    padding: 0 155px;
+  }
+
+  .main-item {
+    align-items: unset;
+    text-align: unset;
+    padding: 120px;
+    gap: 45px;
+  }
+
+  .main-item h2 {
+    font-size: 2rem;
+  }
+
+  .main-item p,
+  .main-item a {
+    padding: unset;
+  }
+
+  .stand-out h2 {
+    max-width: 18ch;
+  }
+
+  #transform-link::after {
+    bottom: 200px;
+    left: 120px;
+  }
+
+  #stand-out-link::after {
+    bottom: 200px;
+    left: 120px;
+  }
+}

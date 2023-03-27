@@ -53,3 +53,21 @@
     max-width: 60vw;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .testimonials-container {
+    padding: 90px 0;
+  }
+
+  .testimonials-title {
+    font-size: 1rem;
+  }
+
+  .testimonial-items {
+    display: flex;
+  }
+
+  .testimonial-item {
+    padding: 0 65px;
+  }
+}

@@ -112,15 +112,21 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header-title {
-    font-size: 3rem;
-    max-width: initial;
-  }
-  .header-container .icon-arrow-down {
-    top: 630px;
+  .header-container {
+    background-image: url("../images/desktop/image-header.jpg");
+    height: calc(100vw * 0.555556);
   }
 
-  #hamburger-menu img {
+  .header-title {
+    font-size: 1.5rem;
+    max-width: initial;
+    padding-top: 20px;
+  }
+  .header-container .icon-arrow-down {
+    top: 170px;
+  }
+
+  #hamburger-menu {
     display: none;
   }
 
@@ -150,5 +156,28 @@
     border-radius: 40px;
     background-color: var(--white);
     color: var(--very-dark-desaturated-blue);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-container {
+    height: 800px;
+  }
+
+  .header {
+    padding: 50px;
+  }
+
+  .header-title {
+    font-size: 3rem;
+    padding-top: 50px;
+  }
+
+  .header-container .icon-arrow-down {
+    top: 360px;
+  }
+
+  .desktop-menu li a {
+    font-size: 1rem;
   }
 }
